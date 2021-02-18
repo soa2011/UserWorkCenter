@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:PageDefinition xmlns:sch="http://Baf.com/schemas" name="PolicyList Search Criteria">
-    <sch:name>PolicyList Search Criteria</sch:name>
+<sch:PageDefinition xmlns:sch="http://Baf.com/schemas" name="TaskAssignment Summary">
+    <sch:name>TaskAssignment Summary</sch:name>
     <sch:pageNumber></sch:pageNumber>
-    <sch:pageType>SearchCriteria</sch:pageType>
+    <sch:pageType>Summary</sch:pageType>
     <sch:pageCondition></sch:pageCondition>
     <sch:title></sch:title>
-    <sch:seqNumber>2600</sch:seqNumber>
-    <sch:objectTypeName>PolicyList</sch:objectTypeName>
+    <sch:seqNumber>2100</sch:seqNumber>
+    <sch:objectTypeName>TaskAssignment</sch:objectTypeName>
     <sch:display>false</sch:display>
     <sch:labelColWidth>0</sch:labelColWidth>
     <sch:valueColWidth>0</sch:valueColWidth>
@@ -25,24 +25,366 @@
     <sch:changeFields></sch:changeFields>
     <sch:clientSideController></sch:clientSideController>
     <sch:serverSideController></sch:serverSideController>
-    <sch:objectType isRef="true">PolicyList</sch:objectType>
+    <sch:objectType isRef="true">TaskAssignment</sch:objectType>
     <sch:pageAreas/>
     <sch:fields>
         <sch:BmfPageField>
-            <sch:name>MRU</sch:name>
-            <sch:seqNumber>100</sch:seqNumber>
+            <sch:name>TaskId</sch:name>
+            <sch:seqNumber>300</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>Select</sch:fieldType>
+            <sch:fieldType></sch:fieldType>
             <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
-            <sch:label>MRU</sch:label>
+            <sch:label>TaskId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
-            <sch:domainName>YesNo</sch:domainName>
+            <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
             <sch:dependency></sch:dependency>
-            <sch:defaultValue>Yes</sch:defaultValue>
+            <sch:defaultValue></sch:defaultValue>
+            <sch:mask></sch:mask>
+            <sch:relatedFields></sch:relatedFields>
+            <sch:relatedRules></sch:relatedRules>
+            <sch:helpText></sch:helpText>
+            <sch:help></sch:help>
+            <sch:width>0</sch:width>
+            <sch:height>0</sch:height>
+            <sch:rowSpan>1</sch:rowSpan>
+            <sch:colSpan>0</sch:colSpan>
+            <sch:sortable>true</sch:sortable>
+            <sch:sortOrder></sch:sortOrder>
+            <sch:filterType>Equal</sch:filterType>
+            <sch:display>true</sch:display>
+            <sch:required>false</sch:required>
+            <sch:displayCondition></sch:displayCondition>
+            <sch:requiredCondition></sch:requiredCondition>
+            <sch:readOnlyCondition></sch:readOnlyCondition>
+            <sch:displayResource></sch:displayResource>
+            <sch:modifyResource></sch:modifyResource>
+            <sch:displayResource2></sch:displayResource2>
+            <sch:modifyResource2></sch:modifyResource2>
+            <sch:singleYesIndicator>false</sch:singleYesIndicator>
+            <sch:uniqueValueIndicator>false</sch:uniqueValueIndicator>
+            <sch:constraints></sch:constraints>
+            <sch:description></sch:description>
+            <sch:className></sch:className>
+            <sch:formatter></sch:formatter>
+            <sch:valueType></sch:valueType>
+            <sch:readOnly>false</sch:readOnly>
+            <sch:minimum></sch:minimum>
+            <sch:maximum></sch:maximum>
+            <sch:fieldLinkExpression></sch:fieldLinkExpression>
+            <sch:filterCriteria></sch:filterCriteria>
+            <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>LineOfBusiness</sch:name>
+            <sch:seqNumber>700</sch:seqNumber>
+            <sch:tabIndex>0</sch:tabIndex>
+            <sch:tabPage></sch:tabPage>
+            <sch:pageAreaName></sch:pageAreaName>
+            <sch:fieldType></sch:fieldType>
+            <sch:widgetType></sch:widgetType>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>LOB</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+            <sch:dynaDomain></sch:dynaDomain>
+            <sch:dependency></sch:dependency>
+            <sch:defaultValue></sch:defaultValue>
+            <sch:mask></sch:mask>
+            <sch:relatedFields></sch:relatedFields>
+            <sch:relatedRules></sch:relatedRules>
+            <sch:helpText></sch:helpText>
+            <sch:help></sch:help>
+            <sch:width>0</sch:width>
+            <sch:height>0</sch:height>
+            <sch:rowSpan>1</sch:rowSpan>
+            <sch:colSpan>0</sch:colSpan>
+            <sch:sortable>true</sch:sortable>
+            <sch:sortOrder></sch:sortOrder>
+            <sch:filterType>Equal</sch:filterType>
+            <sch:display>true</sch:display>
+            <sch:required>false</sch:required>
+            <sch:displayCondition></sch:displayCondition>
+            <sch:requiredCondition></sch:requiredCondition>
+            <sch:readOnlyCondition></sch:readOnlyCondition>
+            <sch:displayResource></sch:displayResource>
+            <sch:modifyResource></sch:modifyResource>
+            <sch:displayResource2></sch:displayResource2>
+            <sch:modifyResource2></sch:modifyResource2>
+            <sch:singleYesIndicator>false</sch:singleYesIndicator>
+            <sch:uniqueValueIndicator>false</sch:uniqueValueIndicator>
+            <sch:constraints></sch:constraints>
+            <sch:description></sch:description>
+            <sch:className></sch:className>
+            <sch:formatter></sch:formatter>
+            <sch:valueType></sch:valueType>
+            <sch:readOnly>false</sch:readOnly>
+            <sch:minimum></sch:minimum>
+            <sch:maximum></sch:maximum>
+            <sch:fieldLinkExpression></sch:fieldLinkExpression>
+            <sch:filterCriteria></sch:filterCriteria>
+            <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>Policyholder</sch:name>
+            <sch:seqNumber>720</sch:seqNumber>
+            <sch:tabIndex>0</sch:tabIndex>
+            <sch:tabPage></sch:tabPage>
+            <sch:pageAreaName></sch:pageAreaName>
+            <sch:fieldType></sch:fieldType>
+            <sch:widgetType></sch:widgetType>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Policyholder</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+            <sch:dynaDomain></sch:dynaDomain>
+            <sch:dependency></sch:dependency>
+            <sch:defaultValue></sch:defaultValue>
+            <sch:mask></sch:mask>
+            <sch:relatedFields></sch:relatedFields>
+            <sch:relatedRules></sch:relatedRules>
+            <sch:helpText></sch:helpText>
+            <sch:help></sch:help>
+            <sch:width>0</sch:width>
+            <sch:height>0</sch:height>
+            <sch:rowSpan>1</sch:rowSpan>
+            <sch:colSpan>0</sch:colSpan>
+            <sch:sortable>true</sch:sortable>
+            <sch:sortOrder></sch:sortOrder>
+            <sch:filterType>Equal</sch:filterType>
+            <sch:display>true</sch:display>
+            <sch:required>false</sch:required>
+            <sch:displayCondition></sch:displayCondition>
+            <sch:requiredCondition></sch:requiredCondition>
+            <sch:readOnlyCondition></sch:readOnlyCondition>
+            <sch:displayResource></sch:displayResource>
+            <sch:modifyResource></sch:modifyResource>
+            <sch:displayResource2></sch:displayResource2>
+            <sch:modifyResource2></sch:modifyResource2>
+            <sch:singleYesIndicator>false</sch:singleYesIndicator>
+            <sch:uniqueValueIndicator>false</sch:uniqueValueIndicator>
+            <sch:constraints></sch:constraints>
+            <sch:description></sch:description>
+            <sch:className></sch:className>
+            <sch:formatter></sch:formatter>
+            <sch:valueType></sch:valueType>
+            <sch:readOnly>false</sch:readOnly>
+            <sch:minimum></sch:minimum>
+            <sch:maximum></sch:maximum>
+            <sch:fieldLinkExpression></sch:fieldLinkExpression>
+            <sch:filterCriteria></sch:filterCriteria>
+            <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>Producer</sch:name>
+            <sch:seqNumber>760</sch:seqNumber>
+            <sch:tabIndex>0</sch:tabIndex>
+            <sch:tabPage></sch:tabPage>
+            <sch:pageAreaName></sch:pageAreaName>
+            <sch:fieldType></sch:fieldType>
+            <sch:widgetType></sch:widgetType>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Producer</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+            <sch:dynaDomain></sch:dynaDomain>
+            <sch:dependency></sch:dependency>
+            <sch:defaultValue></sch:defaultValue>
+            <sch:mask></sch:mask>
+            <sch:relatedFields></sch:relatedFields>
+            <sch:relatedRules></sch:relatedRules>
+            <sch:helpText></sch:helpText>
+            <sch:help></sch:help>
+            <sch:width>0</sch:width>
+            <sch:height>0</sch:height>
+            <sch:rowSpan>1</sch:rowSpan>
+            <sch:colSpan>0</sch:colSpan>
+            <sch:sortable>true</sch:sortable>
+            <sch:sortOrder></sch:sortOrder>
+            <sch:filterType>Equal</sch:filterType>
+            <sch:display>true</sch:display>
+            <sch:required>false</sch:required>
+            <sch:displayCondition></sch:displayCondition>
+            <sch:requiredCondition></sch:requiredCondition>
+            <sch:readOnlyCondition></sch:readOnlyCondition>
+            <sch:displayResource></sch:displayResource>
+            <sch:modifyResource></sch:modifyResource>
+            <sch:displayResource2></sch:displayResource2>
+            <sch:modifyResource2></sch:modifyResource2>
+            <sch:singleYesIndicator>false</sch:singleYesIndicator>
+            <sch:uniqueValueIndicator>false</sch:uniqueValueIndicator>
+            <sch:constraints></sch:constraints>
+            <sch:description></sch:description>
+            <sch:className></sch:className>
+            <sch:formatter></sch:formatter>
+            <sch:valueType></sch:valueType>
+            <sch:readOnly>false</sch:readOnly>
+            <sch:minimum></sch:minimum>
+            <sch:maximum></sch:maximum>
+            <sch:fieldLinkExpression></sch:fieldLinkExpression>
+            <sch:filterCriteria></sch:filterCriteria>
+            <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>EffectiveDate</sch:name>
+            <sch:seqNumber>800</sch:seqNumber>
+            <sch:tabIndex>0</sch:tabIndex>
+            <sch:tabPage></sch:tabPage>
+            <sch:pageAreaName></sch:pageAreaName>
+            <sch:fieldType></sch:fieldType>
+            <sch:widgetType></sch:widgetType>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Effective Date</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+            <sch:dynaDomain></sch:dynaDomain>
+            <sch:dependency></sch:dependency>
+            <sch:defaultValue></sch:defaultValue>
+            <sch:mask></sch:mask>
+            <sch:relatedFields></sch:relatedFields>
+            <sch:relatedRules></sch:relatedRules>
+            <sch:helpText></sch:helpText>
+            <sch:help></sch:help>
+            <sch:width>0</sch:width>
+            <sch:height>0</sch:height>
+            <sch:rowSpan>1</sch:rowSpan>
+            <sch:colSpan>0</sch:colSpan>
+            <sch:sortable>true</sch:sortable>
+            <sch:sortOrder></sch:sortOrder>
+            <sch:filterType>Range</sch:filterType>
+            <sch:display>true</sch:display>
+            <sch:required>false</sch:required>
+            <sch:displayCondition></sch:displayCondition>
+            <sch:requiredCondition></sch:requiredCondition>
+            <sch:readOnlyCondition></sch:readOnlyCondition>
+            <sch:displayResource></sch:displayResource>
+            <sch:modifyResource></sch:modifyResource>
+            <sch:displayResource2></sch:displayResource2>
+            <sch:modifyResource2></sch:modifyResource2>
+            <sch:singleYesIndicator>false</sch:singleYesIndicator>
+            <sch:uniqueValueIndicator>false</sch:uniqueValueIndicator>
+            <sch:constraints></sch:constraints>
+            <sch:description></sch:description>
+            <sch:className></sch:className>
+            <sch:formatter></sch:formatter>
+            <sch:valueType></sch:valueType>
+            <sch:readOnly>false</sch:readOnly>
+            <sch:minimum></sch:minimum>
+            <sch:maximum></sch:maximum>
+            <sch:fieldLinkExpression></sch:fieldLinkExpression>
+            <sch:filterCriteria></sch:filterCriteria>
+            <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>ExpirationDate</sch:name>
+            <sch:seqNumber>900</sch:seqNumber>
+            <sch:tabIndex>0</sch:tabIndex>
+            <sch:tabPage></sch:tabPage>
+            <sch:pageAreaName></sch:pageAreaName>
+            <sch:fieldType></sch:fieldType>
+            <sch:widgetType></sch:widgetType>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Expiration Date</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+            <sch:dynaDomain></sch:dynaDomain>
+            <sch:dependency></sch:dependency>
+            <sch:defaultValue></sch:defaultValue>
+            <sch:mask></sch:mask>
+            <sch:relatedFields></sch:relatedFields>
+            <sch:relatedRules></sch:relatedRules>
+            <sch:helpText></sch:helpText>
+            <sch:help></sch:help>
+            <sch:width>0</sch:width>
+            <sch:height>0</sch:height>
+            <sch:rowSpan>1</sch:rowSpan>
+            <sch:colSpan>0</sch:colSpan>
+            <sch:sortable>true</sch:sortable>
+            <sch:sortOrder></sch:sortOrder>
+            <sch:filterType>Range</sch:filterType>
+            <sch:display>true</sch:display>
+            <sch:required>false</sch:required>
+            <sch:displayCondition></sch:displayCondition>
+            <sch:requiredCondition></sch:requiredCondition>
+            <sch:readOnlyCondition></sch:readOnlyCondition>
+            <sch:displayResource></sch:displayResource>
+            <sch:modifyResource></sch:modifyResource>
+            <sch:displayResource2></sch:displayResource2>
+            <sch:modifyResource2></sch:modifyResource2>
+            <sch:singleYesIndicator>false</sch:singleYesIndicator>
+            <sch:uniqueValueIndicator>false</sch:uniqueValueIndicator>
+            <sch:constraints></sch:constraints>
+            <sch:description></sch:description>
+            <sch:className></sch:className>
+            <sch:formatter></sch:formatter>
+            <sch:valueType></sch:valueType>
+            <sch:readOnly>false</sch:readOnly>
+            <sch:minimum></sch:minimum>
+            <sch:maximum></sch:maximum>
+            <sch:fieldLinkExpression></sch:fieldLinkExpression>
+            <sch:filterCriteria></sch:filterCriteria>
+            <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>Premium</sch:name>
+            <sch:seqNumber>1000</sch:seqNumber>
+            <sch:tabIndex>0</sch:tabIndex>
+            <sch:tabPage></sch:tabPage>
+            <sch:pageAreaName></sch:pageAreaName>
+            <sch:fieldType></sch:fieldType>
+            <sch:widgetType></sch:widgetType>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Premium</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+            <sch:dynaDomain></sch:dynaDomain>
+            <sch:dependency></sch:dependency>
+            <sch:defaultValue></sch:defaultValue>
             <sch:mask></sch:mask>
             <sch:relatedFields></sch:relatedFields>
             <sch:relatedRules></sch:relatedRules>
@@ -84,77 +426,19 @@
             <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
             <sch:bindingXpath></sch:bindingXpath>
             <sch:parentNodeName></sch:parentNodeName>
-            <sch:bmfDomain isRef="true">YesNo</sch:bmfDomain>
         </sch:BmfPageField>
         <sch:BmfPageField>
-            <sch:name>PolicyNumber</sch:name>
-            <sch:seqNumber>100</sch:seqNumber>
+            <sch:name>Status</sch:name>
+            <sch:seqNumber>1100</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType></sch:widgetType>
-            <sch:refTargetType></sch:refTargetType>
-            <sch:label>Quote/Policy Number</sch:label>
-            <sch:controllingParameters></sch:controllingParameters>
-            <sch:domainName></sch:domainName>
-            <sch:dynaDomain></sch:dynaDomain>
-            <sch:dependency></sch:dependency>
-            <sch:defaultValue></sch:defaultValue>
-            <sch:mask></sch:mask>
-            <sch:relatedFields></sch:relatedFields>
-            <sch:relatedRules></sch:relatedRules>
-            <sch:helpText></sch:helpText>
-            <sch:help></sch:help>
-            <sch:width>0</sch:width>
-            <sch:height>0</sch:height>
-            <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>1</sch:colSpan>
-            <sch:sortable>false</sch:sortable>
-            <sch:sortOrder></sch:sortOrder>
-            <sch:filterType></sch:filterType>
-            <sch:display>true</sch:display>
-            <sch:required>false</sch:required>
-            <sch:displayCondition></sch:displayCondition>
-            <sch:requiredCondition></sch:requiredCondition>
-            <sch:readOnlyCondition>Yes</sch:readOnlyCondition>
-            <sch:displayResource></sch:displayResource>
-            <sch:modifyResource></sch:modifyResource>
-            <sch:displayResource2></sch:displayResource2>
-            <sch:modifyResource2></sch:modifyResource2>
-            <sch:singleYesIndicator>false</sch:singleYesIndicator>
-            <sch:uniqueValueIndicator>false</sch:uniqueValueIndicator>
-            <sch:constraints></sch:constraints>
-            <sch:description></sch:description>
-            <sch:className></sch:className>
-            <sch:formatter></sch:formatter>
-            <sch:valueType></sch:valueType>
-            <sch:readOnly>false</sch:readOnly>
-            <sch:minimum></sch:minimum>
-            <sch:maximum></sch:maximum>
-            <sch:fieldLinkExpression></sch:fieldLinkExpression>
-            <sch:filterCriteria></sch:filterCriteria>
-            <sch:eventHandler></sch:eventHandler>
-            <sch:changeType></sch:changeType>
-            <sch:changeFields></sch:changeFields>
-            <sch:props></sch:props>
-            <sch:dataSourceType></sch:dataSourceType>
-            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
-            <sch:bindingXpath></sch:bindingXpath>
-            <sch:parentNodeName></sch:parentNodeName>
-        </sch:BmfPageField>
-        <sch:BmfPageField>
-            <sch:name>PolicyState</sch:name>
-            <sch:seqNumber>200</sch:seqNumber>
-            <sch:tabIndex>0</sch:tabIndex>
-            <sch:tabPage></sch:tabPage>
-            <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>Select</sch:fieldType>
+            <sch:fieldType></sch:fieldType>
             <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Status</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
-            <sch:domainName>PolicyState</sch:domainName>
+            <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
             <sch:dependency></sch:dependency>
             <sch:defaultValue></sch:defaultValue>
@@ -166,15 +450,15 @@
             <sch:width>0</sch:width>
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>1</sch:colSpan>
-            <sch:sortable>false</sch:sortable>
+            <sch:colSpan>0</sch:colSpan>
+            <sch:sortable>true</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
-            <sch:filterType></sch:filterType>
+            <sch:filterType>Equal</sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
             <sch:displayCondition></sch:displayCondition>
             <sch:requiredCondition></sch:requiredCondition>
-            <sch:readOnlyCondition>Yes</sch:readOnlyCondition>
+            <sch:readOnlyCondition></sch:readOnlyCondition>
             <sch:displayResource></sch:displayResource>
             <sch:modifyResource></sch:modifyResource>
             <sch:displayResource2></sch:displayResource2>
@@ -201,186 +485,15 @@
             <sch:parentNodeName></sch:parentNodeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
-            <sch:name>LineOfBusiness</sch:name>
-            <sch:seqNumber>300</sch:seqNumber>
+            <sch:name>Underwriter</sch:name>
+            <sch:seqNumber>1150</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>Select</sch:fieldType>
+            <sch:fieldType></sch:fieldType>
             <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
-            <sch:label>Line of Business</sch:label>
-            <sch:controllingParameters></sch:controllingParameters>
-            <sch:domainName>LineOfBusiness</sch:domainName>
-            <sch:dynaDomain></sch:dynaDomain>
-            <sch:dependency></sch:dependency>
-            <sch:defaultValue></sch:defaultValue>
-            <sch:mask></sch:mask>
-            <sch:relatedFields></sch:relatedFields>
-            <sch:relatedRules></sch:relatedRules>
-            <sch:helpText></sch:helpText>
-            <sch:help></sch:help>
-            <sch:width>0</sch:width>
-            <sch:height>0</sch:height>
-            <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>1</sch:colSpan>
-            <sch:sortable>false</sch:sortable>
-            <sch:sortOrder></sch:sortOrder>
-            <sch:filterType></sch:filterType>
-            <sch:display>true</sch:display>
-            <sch:required>false</sch:required>
-            <sch:displayCondition></sch:displayCondition>
-            <sch:requiredCondition></sch:requiredCondition>
-            <sch:readOnlyCondition>Yes</sch:readOnlyCondition>
-            <sch:displayResource></sch:displayResource>
-            <sch:modifyResource></sch:modifyResource>
-            <sch:displayResource2></sch:displayResource2>
-            <sch:modifyResource2></sch:modifyResource2>
-            <sch:singleYesIndicator>false</sch:singleYesIndicator>
-            <sch:uniqueValueIndicator>false</sch:uniqueValueIndicator>
-            <sch:constraints></sch:constraints>
-            <sch:description></sch:description>
-            <sch:className></sch:className>
-            <sch:formatter></sch:formatter>
-            <sch:valueType></sch:valueType>
-            <sch:readOnly>false</sch:readOnly>
-            <sch:minimum></sch:minimum>
-            <sch:maximum></sch:maximum>
-            <sch:fieldLinkExpression></sch:fieldLinkExpression>
-            <sch:filterCriteria></sch:filterCriteria>
-            <sch:eventHandler></sch:eventHandler>
-            <sch:changeType></sch:changeType>
-            <sch:changeFields></sch:changeFields>
-            <sch:props></sch:props>
-            <sch:dataSourceType></sch:dataSourceType>
-            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
-            <sch:bindingXpath></sch:bindingXpath>
-            <sch:parentNodeName></sch:parentNodeName>
-        </sch:BmfPageField>
-        <sch:BmfPageField>
-            <sch:name>Company</sch:name>
-            <sch:seqNumber>400</sch:seqNumber>
-            <sch:tabIndex>0</sch:tabIndex>
-            <sch:tabPage></sch:tabPage>
-            <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>Select</sch:fieldType>
-            <sch:widgetType></sch:widgetType>
-            <sch:refTargetType></sch:refTargetType>
-            <sch:label>Issue Company</sch:label>
-            <sch:controllingParameters></sch:controllingParameters>
-            <sch:domainName>Company</sch:domainName>
-            <sch:dynaDomain></sch:dynaDomain>
-            <sch:dependency></sch:dependency>
-            <sch:defaultValue></sch:defaultValue>
-            <sch:mask></sch:mask>
-            <sch:relatedFields></sch:relatedFields>
-            <sch:relatedRules></sch:relatedRules>
-            <sch:helpText></sch:helpText>
-            <sch:help></sch:help>
-            <sch:width>250</sch:width>
-            <sch:height>0</sch:height>
-            <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>1</sch:colSpan>
-            <sch:sortable>false</sch:sortable>
-            <sch:sortOrder></sch:sortOrder>
-            <sch:filterType></sch:filterType>
-            <sch:display>true</sch:display>
-            <sch:required>false</sch:required>
-            <sch:displayCondition></sch:displayCondition>
-            <sch:requiredCondition></sch:requiredCondition>
-            <sch:readOnlyCondition>Yes</sch:readOnlyCondition>
-            <sch:displayResource></sch:displayResource>
-            <sch:modifyResource></sch:modifyResource>
-            <sch:displayResource2></sch:displayResource2>
-            <sch:modifyResource2></sch:modifyResource2>
-            <sch:singleYesIndicator>false</sch:singleYesIndicator>
-            <sch:uniqueValueIndicator>false</sch:uniqueValueIndicator>
-            <sch:constraints></sch:constraints>
-            <sch:description></sch:description>
-            <sch:className></sch:className>
-            <sch:formatter></sch:formatter>
-            <sch:valueType></sch:valueType>
-            <sch:readOnly>false</sch:readOnly>
-            <sch:minimum></sch:minimum>
-            <sch:maximum></sch:maximum>
-            <sch:fieldLinkExpression></sch:fieldLinkExpression>
-            <sch:filterCriteria></sch:filterCriteria>
-            <sch:eventHandler></sch:eventHandler>
-            <sch:changeType></sch:changeType>
-            <sch:changeFields></sch:changeFields>
-            <sch:props></sch:props>
-            <sch:dataSourceType></sch:dataSourceType>
-            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
-            <sch:bindingXpath></sch:bindingXpath>
-            <sch:parentNodeName></sch:parentNodeName>
-        </sch:BmfPageField>
-        <sch:BmfPageField>
-            <sch:name>State</sch:name>
-            <sch:seqNumber>500</sch:seqNumber>
-            <sch:tabIndex>0</sch:tabIndex>
-            <sch:tabPage></sch:tabPage>
-            <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>Select</sch:fieldType>
-            <sch:widgetType></sch:widgetType>
-            <sch:refTargetType></sch:refTargetType>
-            <sch:label>State</sch:label>
-            <sch:controllingParameters></sch:controllingParameters>
-            <sch:domainName>State</sch:domainName>
-            <sch:dynaDomain></sch:dynaDomain>
-            <sch:dependency></sch:dependency>
-            <sch:defaultValue></sch:defaultValue>
-            <sch:mask></sch:mask>
-            <sch:relatedFields></sch:relatedFields>
-            <sch:relatedRules></sch:relatedRules>
-            <sch:helpText></sch:helpText>
-            <sch:help></sch:help>
-            <sch:width>0</sch:width>
-            <sch:height>0</sch:height>
-            <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>1</sch:colSpan>
-            <sch:sortable>false</sch:sortable>
-            <sch:sortOrder></sch:sortOrder>
-            <sch:filterType></sch:filterType>
-            <sch:display>true</sch:display>
-            <sch:required>false</sch:required>
-            <sch:displayCondition></sch:displayCondition>
-            <sch:requiredCondition></sch:requiredCondition>
-            <sch:readOnlyCondition>Yes</sch:readOnlyCondition>
-            <sch:displayResource></sch:displayResource>
-            <sch:modifyResource></sch:modifyResource>
-            <sch:displayResource2></sch:displayResource2>
-            <sch:modifyResource2></sch:modifyResource2>
-            <sch:singleYesIndicator>false</sch:singleYesIndicator>
-            <sch:uniqueValueIndicator>false</sch:uniqueValueIndicator>
-            <sch:constraints></sch:constraints>
-            <sch:description></sch:description>
-            <sch:className></sch:className>
-            <sch:formatter></sch:formatter>
-            <sch:valueType></sch:valueType>
-            <sch:readOnly>false</sch:readOnly>
-            <sch:minimum></sch:minimum>
-            <sch:maximum></sch:maximum>
-            <sch:fieldLinkExpression></sch:fieldLinkExpression>
-            <sch:filterCriteria></sch:filterCriteria>
-            <sch:eventHandler></sch:eventHandler>
-            <sch:changeType></sch:changeType>
-            <sch:changeFields></sch:changeFields>
-            <sch:props></sch:props>
-            <sch:dataSourceType></sch:dataSourceType>
-            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
-            <sch:bindingXpath></sch:bindingXpath>
-            <sch:parentNodeName></sch:parentNodeName>
-        </sch:BmfPageField>
-        <sch:BmfPageField>
-            <sch:name>EffectiveDate</sch:name>
-            <sch:seqNumber>600</sch:seqNumber>
-            <sch:tabIndex>0</sch:tabIndex>
-            <sch:tabPage></sch:tabPage>
-            <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>Date</sch:fieldType>
-            <sch:widgetType></sch:widgetType>
-            <sch:refTargetType></sch:refTargetType>
-            <sch:label>Term Effective Date</sch:label>
+            <sch:label>UW</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
@@ -394,15 +507,15 @@
             <sch:width>0</sch:width>
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>1</sch:colSpan>
-            <sch:sortable>false</sch:sortable>
+            <sch:colSpan>0</sch:colSpan>
+            <sch:sortable>true</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
-            <sch:filterType></sch:filterType>
+            <sch:filterType>Equal</sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
             <sch:displayCondition></sch:displayCondition>
             <sch:requiredCondition></sch:requiredCondition>
-            <sch:readOnlyCondition>Yes</sch:readOnlyCondition>
+            <sch:readOnlyCondition></sch:readOnlyCondition>
             <sch:displayResource></sch:displayResource>
             <sch:modifyResource></sch:modifyResource>
             <sch:displayResource2></sch:displayResource2>
@@ -429,15 +542,15 @@
             <sch:parentNodeName></sch:parentNodeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
-            <sch:name>ExpirationDate</sch:name>
-            <sch:seqNumber>700</sch:seqNumber>
+            <sch:name>Agency</sch:name>
+            <sch:seqNumber>1180</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>Date</sch:fieldType>
+            <sch:fieldType></sch:fieldType>
             <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
-            <sch:label>Term Expiration Date</sch:label>
+            <sch:label>Agency</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
@@ -451,15 +564,72 @@
             <sch:width>0</sch:width>
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>1</sch:colSpan>
-            <sch:sortable>false</sch:sortable>
+            <sch:colSpan>0</sch:colSpan>
+            <sch:sortable>true</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
-            <sch:filterType></sch:filterType>
+            <sch:filterType>Equal</sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
             <sch:displayCondition></sch:displayCondition>
             <sch:requiredCondition></sch:requiredCondition>
-            <sch:readOnlyCondition>Yes</sch:readOnlyCondition>
+            <sch:readOnlyCondition></sch:readOnlyCondition>
+            <sch:displayResource></sch:displayResource>
+            <sch:modifyResource></sch:modifyResource>
+            <sch:displayResource2></sch:displayResource2>
+            <sch:modifyResource2></sch:modifyResource2>
+            <sch:singleYesIndicator>false</sch:singleYesIndicator>
+            <sch:uniqueValueIndicator>false</sch:uniqueValueIndicator>
+            <sch:constraints></sch:constraints>
+            <sch:description></sch:description>
+            <sch:className></sch:className>
+            <sch:formatter></sch:formatter>
+            <sch:valueType></sch:valueType>
+            <sch:readOnly>false</sch:readOnly>
+            <sch:minimum></sch:minimum>
+            <sch:maximum></sch:maximum>
+            <sch:fieldLinkExpression></sch:fieldLinkExpression>
+            <sch:filterCriteria></sch:filterCriteria>
+            <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
+            <sch:bindingXpath></sch:bindingXpath>
+            <sch:parentNodeName></sch:parentNodeName>
+        </sch:BmfPageField>
+        <sch:BmfPageField>
+            <sch:name>AccessDate</sch:name>
+            <sch:seqNumber>1200</sch:seqNumber>
+            <sch:tabIndex>0</sch:tabIndex>
+            <sch:tabPage></sch:tabPage>
+            <sch:pageAreaName></sch:pageAreaName>
+            <sch:fieldType></sch:fieldType>
+            <sch:widgetType></sch:widgetType>
+            <sch:refTargetType></sch:refTargetType>
+            <sch:label>Access Date</sch:label>
+            <sch:controllingParameters></sch:controllingParameters>
+            <sch:domainName></sch:domainName>
+            <sch:dynaDomain></sch:dynaDomain>
+            <sch:dependency></sch:dependency>
+            <sch:defaultValue></sch:defaultValue>
+            <sch:mask></sch:mask>
+            <sch:relatedFields></sch:relatedFields>
+            <sch:relatedRules></sch:relatedRules>
+            <sch:helpText></sch:helpText>
+            <sch:help></sch:help>
+            <sch:width>0</sch:width>
+            <sch:height>0</sch:height>
+            <sch:rowSpan>1</sch:rowSpan>
+            <sch:colSpan>0</sch:colSpan>
+            <sch:sortable>true</sch:sortable>
+            <sch:sortOrder></sch:sortOrder>
+            <sch:filterType>Range</sch:filterType>
+            <sch:display>true</sch:display>
+            <sch:required>false</sch:required>
+            <sch:displayCondition></sch:displayCondition>
+            <sch:requiredCondition></sch:requiredCondition>
+            <sch:readOnlyCondition></sch:readOnlyCondition>
             <sch:displayResource></sch:displayResource>
             <sch:modifyResource></sch:modifyResource>
             <sch:displayResource2></sch:displayResource2>
@@ -488,6 +658,107 @@
     </sch:fields>
     <sch:variables/>
     <sch:treeNodes/>
-    <sch:buttons/>
+    <sch:buttons>
+        <sch:BmfPageButton>
+            <sch:seqNumber>1300</sch:seqNumber>
+            <sch:buttonName>AddQuote</sch:buttonName>
+            <sch:displayCondition></sch:displayCondition>
+            <sch:displayResource></sch:displayResource>
+            <sch:description></sch:description>
+            <sch:showButton>true</sch:showButton>
+            <sch:eventHandler></sch:eventHandler>
+            <sch:bmfButton isRef="true">AddQuote</sch:bmfButton>
+        </sch:BmfPageButton>
+        <sch:BmfPageButton>
+            <sch:seqNumber>1400</sch:seqNumber>
+            <sch:buttonName>ShowTransaction</sch:buttonName>
+            <sch:displayCondition></sch:displayCondition>
+            <sch:displayResource></sch:displayResource>
+            <sch:description></sch:description>
+            <sch:showButton>true</sch:showButton>
+            <sch:eventHandler></sch:eventHandler>
+            <sch:bmfButton isRef="true">ShowTransaction</sch:bmfButton>
+        </sch:BmfPageButton>
+        <sch:BmfPageButton>
+            <sch:seqNumber>1500</sch:seqNumber>
+            <sch:buttonName>ShowPolicyHistory</sch:buttonName>
+            <sch:displayCondition></sch:displayCondition>
+            <sch:displayResource></sch:displayResource>
+            <sch:description></sch:description>
+            <sch:showButton>false</sch:showButton>
+            <sch:eventHandler></sch:eventHandler>
+            <sch:bmfButton isRef="true">ShowPolicyHistory</sch:bmfButton>
+        </sch:BmfPageButton>
+        <sch:BmfPageButton>
+            <sch:seqNumber>1600</sch:seqNumber>
+            <sch:buttonName>Add</sch:buttonName>
+            <sch:displayCondition></sch:displayCondition>
+            <sch:displayResource></sch:displayResource>
+            <sch:description></sch:description>
+            <sch:showButton>false</sch:showButton>
+            <sch:eventHandler></sch:eventHandler>
+            <sch:bmfButton isRef="true">Add</sch:bmfButton>
+        </sch:BmfPageButton>
+        <sch:BmfPageButton>
+            <sch:seqNumber>1700</sch:seqNumber>
+            <sch:buttonName>View</sch:buttonName>
+            <sch:displayCondition></sch:displayCondition>
+            <sch:displayResource></sch:displayResource>
+            <sch:description></sch:description>
+            <sch:showButton>false</sch:showButton>
+            <sch:eventHandler></sch:eventHandler>
+            <sch:bmfButton isRef="true">View</sch:bmfButton>
+        </sch:BmfPageButton>
+        <sch:BmfPageButton>
+            <sch:seqNumber>1800</sch:seqNumber>
+            <sch:buttonName>Delete</sch:buttonName>
+            <sch:displayCondition></sch:displayCondition>
+            <sch:displayResource></sch:displayResource>
+            <sch:description></sch:description>
+            <sch:showButton>false</sch:showButton>
+            <sch:eventHandler></sch:eventHandler>
+            <sch:bmfButton isRef="true">Delete</sch:bmfButton>
+        </sch:BmfPageButton>
+        <sch:BmfPageButton>
+            <sch:seqNumber>1900</sch:seqNumber>
+            <sch:buttonName>Copy</sch:buttonName>
+            <sch:displayCondition></sch:displayCondition>
+            <sch:displayResource></sch:displayResource>
+            <sch:description></sch:description>
+            <sch:showButton>false</sch:showButton>
+            <sch:eventHandler></sch:eventHandler>
+            <sch:bmfButton isRef="true">Copy</sch:bmfButton>
+        </sch:BmfPageButton>
+        <sch:BmfPageButton>
+            <sch:seqNumber>2000</sch:seqNumber>
+            <sch:buttonName>DeepCopy</sch:buttonName>
+            <sch:displayCondition></sch:displayCondition>
+            <sch:displayResource></sch:displayResource>
+            <sch:description></sch:description>
+            <sch:showButton>false</sch:showButton>
+            <sch:eventHandler></sch:eventHandler>
+            <sch:bmfButton isRef="true">DeepCopy</sch:bmfButton>
+        </sch:BmfPageButton>
+        <sch:BmfPageButton>
+            <sch:seqNumber>2100</sch:seqNumber>
+            <sch:buttonName>ViewWhereUsed</sch:buttonName>
+            <sch:displayCondition></sch:displayCondition>
+            <sch:displayResource></sch:displayResource>
+            <sch:description></sch:description>
+            <sch:showButton>false</sch:showButton>
+            <sch:eventHandler></sch:eventHandler>
+            <sch:bmfButton isRef="true">ViewWhereUsed</sch:bmfButton>
+        </sch:BmfPageButton>
+        <sch:BmfPageButton>
+            <sch:seqNumber>2200</sch:seqNumber>
+            <sch:buttonName>ViewHistory</sch:buttonName>
+            <sch:displayCondition></sch:displayCondition>
+            <sch:displayResource></sch:displayResource>
+            <sch:description></sch:description>
+            <sch:showButton>false</sch:showButton>
+            <sch:eventHandler></sch:eventHandler>
+            <sch:bmfButton isRef="true">ViewHistory</sch:bmfButton>
+        </sch:BmfPageButton>
+    </sch:buttons>
     <sch:plugins/>
 </sch:PageDefinition>

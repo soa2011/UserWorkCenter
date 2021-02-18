@@ -50,7 +50,7 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>QuoteList</sch:tableName>
+            <sch:tableName>TaskAssignment</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>1100</sch:seqIndex>
             <sch:format>Quote</sch:format>
@@ -60,7 +60,7 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>QuoteList</sch:tableName>
+            <sch:tableName>TaskAssignment</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>1110</sch:seqIndex>
             <sch:format>%s %s</sch:format>
@@ -70,7 +70,7 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>PolicyList</sch:tableName>
+            <sch:tableName>TaskUserCandidate</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>1200</sch:seqIndex>
             <sch:format>Policy</sch:format>
@@ -80,7 +80,7 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>PolicyList</sch:tableName>
+            <sch:tableName>TaskUserCandidate</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>1210</sch:seqIndex>
             <sch:format>%s %s</sch:format>
@@ -90,7 +90,7 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>ClientList</sch:tableName>
+            <sch:tableName>TaskCandidate</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>1300</sch:seqIndex>
             <sch:format>Customers</sch:format>
@@ -100,7 +100,7 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>ClientList</sch:tableName>
+            <sch:tableName>TaskCandidate</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>1310</sch:seqIndex>
             <sch:format>%s %s</sch:format>
