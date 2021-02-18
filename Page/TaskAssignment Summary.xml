@@ -86,7 +86,7 @@
             <sch:parentNodeName></sch:parentNodeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
-            <sch:name>LineOfBusiness</sch:name>
+            <sch:name>ClientId</sch:name>
             <sch:seqNumber>700</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
@@ -94,7 +94,7 @@
             <sch:fieldType></sch:fieldType>
             <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
-            <sch:label>LOB</sch:label>
+            <sch:label>ClientId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>

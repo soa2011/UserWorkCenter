@@ -3,7 +3,7 @@
     <sch:name>TaskUserCandidate</sch:name>
     <sch:tableType>System</sch:tableType>
     <sch:archeType>NORMAL</sch:archeType>
-    <sch:parentTypeName>UserWorkCenter</sch:parentTypeName>
+    <sch:parentTypeName>TaskCandidate</sch:parentTypeName>
     <sch:accessMode></sch:accessMode>
     <sch:primaryField></sch:primaryField>
     <sch:primaryKey></sch:primaryKey>
@@ -26,24 +26,19 @@
             <sch:upperBound>1</sch:upperBound>
             <sch:containment>false</sch:containment>
         </sch:BmfObjectRelationship>
+        <sch:BmfObjectRelationship>
+            <sch:type>REF_TO_ONE</sch:type>
+            <sch:name>ClientId</sch:name>
+            <sch:displayName></sch:displayName>
+            <sch:description></sch:description>
+            <sch:relatedObjectType>Client</sch:relatedObjectType>
+            <sch:joinField></sch:joinField>
+            <sch:lowerBound>0</sch:lowerBound>
+            <sch:upperBound>1</sch:upperBound>
+            <sch:containment>false</sch:containment>
+        </sch:BmfObjectRelationship>
     </sch:bmfRelationships>
     <sch:bmfFields>
-        <sch:BmfObjectField>
-            <sch:name>PolicyNumber</sch:name>
-            <sch:dataType>Char</sch:dataType>
-            <sch:enumName></sch:enumName>
-            <sch:length>256</sch:length>
-            <sch:scale></sch:scale>
-            <sch:autoIncrement>false</sch:autoIncrement>
-            <sch:calculated>false</sch:calculated>
-            <sch:encrypted>false</sch:encrypted>
-            <sch:seqStart>0</sch:seqStart>
-            <sch:seqPattern></sch:seqPattern>
-            <sch:calcExpr></sch:calcExpr>
-            <sch:description></sch:description>
-            <sch:changeType></sch:changeType>
-            <sch:changeFields></sch:changeFields>
-        </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>Company</sch:name>
             <sch:dataType>Char</sch:dataType>

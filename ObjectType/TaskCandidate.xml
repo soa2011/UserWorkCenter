@@ -16,6 +16,17 @@
     <sch:changeFields></sch:changeFields>
     <sch:bmfRelationships>
         <sch:BmfObjectRelationship>
+            <sch:type>REF_TO_MANY</sch:type>
+            <sch:name>TaskUserCandidate</sch:name>
+            <sch:displayName></sch:displayName>
+            <sch:description></sch:description>
+            <sch:relatedObjectType>TaskUserCandidate</sch:relatedObjectType>
+            <sch:joinField></sch:joinField>
+            <sch:lowerBound>0</sch:lowerBound>
+            <sch:upperBound>-1</sch:upperBound>
+            <sch:containment>false</sch:containment>
+        </sch:BmfObjectRelationship>
+        <sch:BmfObjectRelationship>
             <sch:type>REF_TO_ONE</sch:type>
             <sch:name>TaskId</sch:name>
             <sch:displayName></sch:displayName>
@@ -29,9 +40,9 @@
     </sch:bmfRelationships>
     <sch:bmfFields>
         <sch:BmfObjectField>
-            <sch:name>ClientType</sch:name>
+            <sch:name>GroupType</sch:name>
             <sch:dataType>Char</sch:dataType>
-            <sch:enumName>ClientType</sch:enumName>
+            <sch:enumName>GroupType</sch:enumName>
             <sch:length>256</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
