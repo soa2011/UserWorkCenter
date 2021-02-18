@@ -53,7 +53,7 @@
             <sch:tableName>TaskAssignment</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>1100</sch:seqIndex>
-            <sch:format>Quote</sch:format>
+            <sch:format>TaskAssignment</sch:format>
             <sch:columns></sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
@@ -63,8 +63,8 @@
             <sch:tableName>TaskAssignment</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>1110</sch:seqIndex>
-            <sch:format>%s %s</sch:format>
-            <sch:columns>UnitNumber,Description</sch:columns>
+            <sch:format>%s</sch:format>
+            <sch:columns>ClientId</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
             <sch:description></sch:description>
@@ -73,7 +73,7 @@
             <sch:tableName>TaskUserCandidate</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>1200</sch:seqIndex>
-            <sch:format>Policy</sch:format>
+            <sch:format>TaskUserCandidate</sch:format>
             <sch:columns></sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
@@ -83,8 +83,8 @@
             <sch:tableName>TaskUserCandidate</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>1210</sch:seqIndex>
-            <sch:format>%s %s</sch:format>
-            <sch:columns>UnitNumber,Description</sch:columns>
+            <sch:format>%s</sch:format>
+            <sch:columns>ClientId</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
             <sch:description></sch:description>
@@ -93,7 +93,7 @@
             <sch:tableName>TaskCandidate</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>1300</sch:seqIndex>
-            <sch:format>Customers</sch:format>
+            <sch:format>TaskCandidate</sch:format>
             <sch:columns></sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
@@ -103,8 +103,8 @@
             <sch:tableName>TaskCandidate</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>1310</sch:seqIndex>
-            <sch:format>%s %s</sch:format>
-            <sch:columns>ClientNumber,Name</sch:columns>
+            <sch:format>%s</sch:format>
+            <sch:columns>GroupName</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
             <sch:description></sch:description>
