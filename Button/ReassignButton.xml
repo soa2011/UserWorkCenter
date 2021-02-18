@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:Button xmlns:sch="http://Baf.com/schemas" name="ReassignButton">
+    <sch:name>ReassignButton</sch:name>
+    <sch:label>Reassign</sch:label>
+    <sch:behavior>ExecuteMethod</sch:behavior>
+    <sch:bmfTransactionName>Reassign Diary Item</sch:bmfTransactionName>
+    <sch:content></sch:content>
+    <sch:appliesTo></sch:appliesTo>
+    <sch:securityToken></sch:securityToken>
+    <sch:description></sch:description>
+</sch:Button>
