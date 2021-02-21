@@ -2,7 +2,7 @@
 <sch:BmfAppModel xmlns:sch="http://Baf.com/schemas" name="UserWorkCenter">
     <sch:name>UserWorkCenter</sch:name>
     <sch:aggrRootName>UserWorkCenter</sch:aggrRootName>
-    <sch:revision>6</sch:revision>
+    <sch:revision>7</sch:revision>
     <sch:modelType>CUSTOM_MODEL</sch:modelType>
     <sch:historyMode>SYSTEM_HISTORY</sch:historyMode>
     <sch:baseModel>UserWorkCenter</sch:baseModel>
